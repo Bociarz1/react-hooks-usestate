@@ -1,24 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-
+import PrevStateComp from "./components/PrevStateComp";
+import ObjectInStateComp from "./components/ObjectInStateComp";
+import ArrayInStateComp from "./components/ArrayInStateComp";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <PrevStateComp />
+      <ObjectInStateComp />
+      <ArrayInStateComp />
+    </>
   );
 }
 
